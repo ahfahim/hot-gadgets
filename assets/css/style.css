@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body {
+	font-family: 'Poppins';
+	font-size: 16px;
+	line-height: 22px;
+	color: gray;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+ul {
+	list-style: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none!important;
+}
+
+.header li.nav-item {
+	padding-left: 15px;
+}
+
+.slider-wrapper .carousel-indicators li {
+	width: 10px;
+	height: 8px;
+	border-radius: 100%;
+	background-color: yellow;
+}
+
+.slider-wrapper .carousel-indicators .active {
+	width: 40px;
+	height: 8px;
+	border-radius: 43%;
+}
+
+.slider-wrapper .carousel-item.active,
+.carousel-item {
+	padding: 20px;
+}
+
+a.nav-link:hover,
+.active>.nav-link {
+	color: #28B9E5!important;
+	font-weight: 500;
+}
+
+.slider-wrapper h1 {
+	color: #000;
+}
+
+.slider-wrapper .carousel-item p {
+	margin: 20px 0;
+}
+
+.buy-now {
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+
+.buy-now:hover {
+	background-color: yellow;
+	color: #000;
+	font-weight: 600;
+}
+
+.card-footer {
+	background-color: #fff;
+	border: navajowhite;
+}
+
+.phone-title {
+	padding: 100px 0 60px 0;
+}
+
+.phone-title a {
+	color: orange;
+	font-weight: 500;
+}
+
+.phone-title h1,
+h5 {
+	color: #000;
+}
+
+.categoris-wrapper {
+	padding: 100px 0;
+}
+
+.categoris-wrapper h1 {
+	margin-bottom: 30px;
+}
+
+.categoris-wrapper h1:before {
+	content: "";
+	bottom: -12px;
+	width: 13%;
+	position: absolute;
+	left: 44%;
+	border-bottom: 6px solid;
+	border-image-slice: 1;
+	border-image-source: linear-gradient(to left, #fbff04, orange);
+	border-radius: 18px;
+}
+
+.categoris-wrapper h1 {
+	position: relative;
+}
+
+.categoris-wrapper h1 {
+	color: #000000;
+}
+
+.col-md-6.cat-3 img {
+	display: block;
+}
+
+.col-md-6.cat-2 {
+	display: flex;
+	align-items: center;
+}
+
+.col-md-6.cat-3 img {
+	margin-top: 100px;
+}
+
+.col-md-6.cat-4 img {
+	width: 100%;
+}
+
+.about-right img {
+	width: 100%;
+}
+
+.about-left h2 {
+	color: #000;
+}
+
+#about-us {
+	padding-bottom: 70px;
+}
+
+.about-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-us {
+	height: 300px;
+}
+
+.contact-us {
+	background-color: lightslategrey;
+	color: #000000;
+}
